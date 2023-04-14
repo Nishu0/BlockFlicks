@@ -1,7 +1,7 @@
-const hre = require('hardhat');
+import { ethers } from 'hardhat'
 
 async function main() {
-    const VideoGramContract = await hre.ethers.getContractFactory('VideoGram')
+    const VideoGramContract = await ethers.getContractFactory('VideoGram')
     const DeployContract = await VideoGramContract.deploy()
 
     await DeployContract.deployed()
