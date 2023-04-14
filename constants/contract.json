@@ -1,7 +1,7 @@
 {
     "_format": "hh-sol-artifact-1",
-    "contractName": "BlockFlicks",
-    "sourceName": "contracts/BlockFlicks.sol",
+    "contractName": "VideoGram",
+    "sourceName": "contracts/VideoGram.sol",
     "abi": [
         {
             "inputs": [],

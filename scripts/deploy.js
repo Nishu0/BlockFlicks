@@ -1,8 +1,8 @@
 const hre = require('hardhat');
 
 async function main() {
-    const BlockFlicksContract = await hre.ethers.getContractFactory('BlockFlicks')
-    const DeployContract = await BlockFlicksContract.deploy()
+    const VideoGramContract = await hre.ethers.getContractFactory('VideoGram')
+    const DeployContract = await VideoGramContract.deploy()
 
     await DeployContract.deployed()
 
